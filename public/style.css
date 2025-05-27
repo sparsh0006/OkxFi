@@ -62,6 +62,16 @@ body {
     font-size: 0.9em;
     white-space: pre-wrap; /* To respect newlines and spacing */
 }
+.message.system-message { /* Added for mode switch messages */
+    background-color: #fffacd; /* Light yellow */
+    color: #856404;
+    border: 1px solid #ffeeba;
+    align-self: center; /* Center system messages */
+    max-width: 90%;
+    text-align: center;
+    font-style: italic;
+    font-size: 0.9em;
+}
 
 
 .chat-input-area {
@@ -91,4 +101,98 @@ body {
 
 #send-button:hover {
     background-color: #0056b3;
+}
+
+/* New styles provided by you, with the box-shadow typo fixed */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    max-width: 800px; /* Increased max-width */
+    height: 90vh;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Typo fixed here */
+    overflow: hidden;
+}
+
+.mode-selector {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #eee;
+}
+
+.mode-button {
+    padding: 8px 15px;
+    margin: 0 5px;
+    border: 1px solid #007bff;
+    background-color: #fff;
+    color: #007bff;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.mode-button:hover {
+    background-color: #e9ecef;
+}
+
+.mode-button.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.api-commands-list {
+    padding: 10px 20px;
+    background-color: #f0f8ff; /* Light alice blue */
+    border-bottom: 1px solid #d1e7fd;
+    max-height: 150px; /* Limit height */
+    overflow-y: auto;
+    font-size: 0.9em;
+}
+.api-commands-list h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #0056b3;
+}
+.api-commands-list ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 5px;
+}
+.api-commands-list li {
+    margin-bottom: 3px;
+    cursor: pointer;
+    color: #007bff;
+}
+.api-commands-list li:hover {
+    text-decoration: underline;
+}
+.api-commands-list li .command-name {
+    font-weight: bold;
+}
+.api-commands-list li .command-example {
+    font-style: italic;
+    color: #555;
+    font-size: 0.9em;
+}
+.api-commands-list p {
+    font-size: 0.85em;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* Adjust chat container if needed */
+/* The .chat-container definition below will override/add to the one at the top of the file */
+.chat-container {
+    width: 100%; /* Take remaining space (overrides width: 90% from above) */
+    flex-grow: 1; /* Added: Allows chat-container to fill vertical space in app-container */
+    /* height: auto; /* Let it grow (original height: 80vh will still apply unless overridden here) */
+    /* max-width: 600px; /* Remove if app-container controls width (original max-width will still apply) */
+    /* background-color, border-radius, box-shadow may not be needed if app-container is the main visual frame */
+    /* The display:flex, flex-direction:column, overflow:hidden from the original definition are still important */
+    min-height: 0; /* Added: Good practice for flex children that should shrink/grow */
 }

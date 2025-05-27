@@ -3,17 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OKX DEX Agent Chat</title>
+    <title>OKX Agent Chat</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="chat-container">
-        <div id="chat-log" class="chat-log">
-            <div class="message assistant">Hello! How can I help you with OKX DEX on Solana today?</div>
+    <div class="app-container">
+        <div class="mode-selector">
+            <button id="mode-sak" class="mode-button active">Solana Agent Kit</button>
+            <button id="mode-okx-trade" class="mode-button">OKX Trade API</button>
+            <button id="mode-okx-market" class="mode-button">OKX Market API</button>
+            <button id="mode-okx-api-agent" class="mode-button">OKX API Agent (NLP)</button> <!-- New Button -->
         </div>
-        <div class="chat-input-area">
-            <input type="text" id="chat-input" placeholder="Ask about OKX DEX...">
-            <button id="send-button">Send</button>
+        <div id="api-commands-list" class="api-commands-list" style="display: none;">
+            <h4>Available API Commands:</h4>
+            <ul id="commands-ul"></ul>
+            <p>Type a command with its parameters (e.g., command_name param1=value1 param2=value2)</p>
+        </div>
+        <div class="chat-container">
+            <div id="chat-log" class="chat-log">
+                <div class="message assistant">Hello! Select a mode and let's get started. Default mode: Solana Agent Kit.</div>
+            </div>
+            <div class="chat-input-area">
+                <input type="text" id="chat-input" placeholder="Ask the SAK Agent or enter API command...">
+                <button id="send-button">Send</button>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>

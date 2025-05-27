@@ -20,16 +20,20 @@
   "dependencies": {
     "@langchain/core": "^0.3.11",
     "@langchain/openai": "^0.3.1",
-    "@solana-agent-kit/plugin-defi": "^2.0.5", 
+    "@solana-agent-kit/plugin-defi": "^2.0.5",
     "@solana/web3.js": "^1.98.0",
     "ai": "^3.2.12",
+    "axios": "^1.9.0",
     "bs58": "^6.0.0",
+    "crypto-js": "^4.2.0",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "langchain": "^0.3.0",
-    "solana-agent-kit": "^2.0.5" 
+    "solana-agent-kit": "^2.0.5",
+    "zod": "^3.25.30"
   },
   "devDependencies": {
+    "@types/crypto-js": "^4.2.2",
     "@types/express": "^4.17.21",
     "@types/node": "^20.14.2",
     "nodemon": "^3.1.3",

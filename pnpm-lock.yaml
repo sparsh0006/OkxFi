@@ -10,22 +10,28 @@ importers:
     dependencies:
       '@langchain/core':
         specifier: ^0.3.11
-        version: 0.3.57(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.28))
+        version: 0.3.57(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.30))
       '@langchain/openai':
         specifier: ^0.3.1
-        version: 0.3.17(@langchain/core@0.3.57(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.28)))(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        version: 0.3.17(@langchain/core@0.3.57(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.30)))(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@solana-agent-kit/plugin-defi':
         specifier: ^2.0.5
-        version: 2.0.5(@solana/buffer-layout@4.0.1)(@solana/web3.js@1.98.2(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10))(@types/node@20.17.50)(arweave@1.15.7)(axios@1.9.0)(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(solana-agent-kit@2.0.5(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.28))(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10))(typescript@5.8.3)(utf-8-validate@5.0.10)
+        version: 2.0.5(@solana/buffer-layout@4.0.1)(@solana/web3.js@1.98.2(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10))(@types/node@20.17.50)(arweave@1.15.7)(axios@1.9.0)(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(solana-agent-kit@2.0.5(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.30))(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10))(typescript@5.8.3)(utf-8-validate@5.0.10)
       '@solana/web3.js':
         specifier: ^1.98.0
         version: 1.98.2(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)
       ai:
         specifier: ^3.2.12
-        version: 3.4.33(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.28))(react@19.1.0)(sswr@2.2.0(svelte@5.33.2))(svelte@5.33.2)(vue@3.5.14(typescript@5.8.3))(zod@3.25.28)
+        version: 3.4.33(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.30))(react@19.1.0)(sswr@2.2.0(svelte@5.33.2))(svelte@5.33.2)(vue@3.5.14(typescript@5.8.3))(zod@3.25.30)
+      axios:
+        specifier: ^1.9.0
+        version: 1.9.0(debug@4.4.1)
       bs58:
         specifier: ^6.0.0
         version: 6.0.0
+      crypto-js:
+        specifier: ^4.2.0
+        version: 4.2.0
       dotenv:
         specifier: ^16.4.5
         version: 16.5.0
@@ -34,11 +40,17 @@ importers:
         version: 4.21.2
       langchain:
         specifier: ^0.3.0
-        version: 0.3.27(@langchain/core@0.3.57(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.28)))(axios@1.9.0)(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.28))(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+        version: 0.3.27(@langchain/core@0.3.57(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.30)))(axios@1.9.0)(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.30))(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       solana-agent-kit:
         specifier: ^2.0.5
-        version: 2.0.5(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.28))(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)
+        version: 2.0.5(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.30))(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)
+      zod:
+        specifier: ^3.25.30
+        version: 3.25.30
     devDependencies:
+      '@types/crypto-js':
+        specifier: ^4.2.2
+        version: 4.2.2
       '@types/express':
         specifier: ^4.17.21
         version: 4.17.22
@@ -1057,6 +1069,9 @@ packages:
 
   '@types/connect@3.4.38':
     resolution: {integrity: sha512-K6uROf1LD88uDQqJCktA4yzL1YYAK6NgfsI0v/mTgyPKWsX1CnJ0XPSDhViejru1GcRkLWb8RlzFYJRqGUbaug==}
+
+  '@types/crypto-js@4.2.2':
+    resolution: {integrity: sha512-sDOLlVbHhXpAUAL0YHDUUwDZf3iN4Bwi4W6a0W0b+QcAezUbRtH4FVb+9J4h+XFPW7l/gQ9F8qC7P+Ec4k8QVQ==}
 
   '@types/decimal.js@7.4.3':
     resolution: {integrity: sha512-7MpxcJPHqQ637FCZwJLtJMaDZkcD/iyUxj0m8A+m06slFeqRiK9QtgEyuocWNRbEtCrOZOEbZPTSSR88hMZVsg==}
@@ -3590,8 +3605,8 @@ packages:
     peerDependencies:
       zod: ^3.24.1
 
-  zod@3.25.28:
-    resolution: {integrity: sha512-/nt/67WYKnr5by3YS7LroZJbtcCBurDKKPBPWWzaxvVCGuG/NOsiKkrjoOhI8mJ+SQUXEbUzeB3S+6XDUEEj7Q==}
+  zod@3.25.30:
+    resolution: {integrity: sha512-VolhdEtu6TJr/fzGuHA/SZ5ixvXqA6ADOG9VRcQ3rdOKmF5hkmcJbyaQjUH5BgmpA9gej++zYRX7zjSmdReIwA==}
 
   zstddec@0.0.2:
     resolution: {integrity: sha512-DCo0oxvcvOTGP/f5FA6tz2Z6wF+FIcEApSTu0zV5sQgn9hoT5lZ9YRAKUraxt9oP7l4e8TnNdi8IZTCX6WCkwA==}
@@ -3616,21 +3631,21 @@ snapshots:
 
   '@adraffy/ens-normalize@1.11.0': {}
 
-  '@ai-sdk/provider-utils@1.0.22(zod@3.25.28)':
+  '@ai-sdk/provider-utils@1.0.22(zod@3.25.30)':
     dependencies:
       '@ai-sdk/provider': 0.0.26
       eventsource-parser: 1.1.2
       nanoid: 3.3.11
       secure-json-parse: 2.7.0
     optionalDependencies:
-      zod: 3.25.28
+      zod: 3.25.30
 
-  '@ai-sdk/provider-utils@2.2.8(zod@3.25.28)':
+  '@ai-sdk/provider-utils@2.2.8(zod@3.25.30)':
     dependencies:
       '@ai-sdk/provider': 1.1.3
       nanoid: 3.3.11
       secure-json-parse: 2.7.0
-      zod: 3.25.28
+      zod: 3.25.30
 
   '@ai-sdk/provider@0.0.26':
     dependencies:
@@ -3640,64 +3655,64 @@ snapshots:
     dependencies:
       json-schema: 0.4.0
 
-  '@ai-sdk/react@0.0.70(react@19.1.0)(zod@3.25.28)':
+  '@ai-sdk/react@0.0.70(react@19.1.0)(zod@3.25.30)':
     dependencies:
-      '@ai-sdk/provider-utils': 1.0.22(zod@3.25.28)
-      '@ai-sdk/ui-utils': 0.0.50(zod@3.25.28)
+      '@ai-sdk/provider-utils': 1.0.22(zod@3.25.30)
+      '@ai-sdk/ui-utils': 0.0.50(zod@3.25.30)
       swr: 2.3.3(react@19.1.0)
       throttleit: 2.1.0
     optionalDependencies:
       react: 19.1.0
-      zod: 3.25.28
+      zod: 3.25.30
 
-  '@ai-sdk/react@1.2.12(react@19.1.0)(zod@3.25.28)':
+  '@ai-sdk/react@1.2.12(react@19.1.0)(zod@3.25.30)':
     dependencies:
-      '@ai-sdk/provider-utils': 2.2.8(zod@3.25.28)
-      '@ai-sdk/ui-utils': 1.2.11(zod@3.25.28)
+      '@ai-sdk/provider-utils': 2.2.8(zod@3.25.30)
+      '@ai-sdk/ui-utils': 1.2.11(zod@3.25.30)
       react: 19.1.0
       swr: 2.3.3(react@19.1.0)
       throttleit: 2.1.0
     optionalDependencies:
-      zod: 3.25.28
+      zod: 3.25.30
 
-  '@ai-sdk/solid@0.0.54(zod@3.25.28)':
+  '@ai-sdk/solid@0.0.54(zod@3.25.30)':
     dependencies:
-      '@ai-sdk/provider-utils': 1.0.22(zod@3.25.28)
-      '@ai-sdk/ui-utils': 0.0.50(zod@3.25.28)
+      '@ai-sdk/provider-utils': 1.0.22(zod@3.25.30)
+      '@ai-sdk/ui-utils': 0.0.50(zod@3.25.30)
     transitivePeerDependencies:
       - zod
 
-  '@ai-sdk/svelte@0.0.57(svelte@5.33.2)(zod@3.25.28)':
+  '@ai-sdk/svelte@0.0.57(svelte@5.33.2)(zod@3.25.30)':
     dependencies:
-      '@ai-sdk/provider-utils': 1.0.22(zod@3.25.28)
-      '@ai-sdk/ui-utils': 0.0.50(zod@3.25.28)
+      '@ai-sdk/provider-utils': 1.0.22(zod@3.25.30)
+      '@ai-sdk/ui-utils': 0.0.50(zod@3.25.30)
       sswr: 2.2.0(svelte@5.33.2)
     optionalDependencies:
       svelte: 5.33.2
     transitivePeerDependencies:
       - zod
 
-  '@ai-sdk/ui-utils@0.0.50(zod@3.25.28)':
+  '@ai-sdk/ui-utils@0.0.50(zod@3.25.30)':
     dependencies:
       '@ai-sdk/provider': 0.0.26
-      '@ai-sdk/provider-utils': 1.0.22(zod@3.25.28)
+      '@ai-sdk/provider-utils': 1.0.22(zod@3.25.30)
       json-schema: 0.4.0
       secure-json-parse: 2.7.0
-      zod-to-json-schema: 3.24.5(zod@3.25.28)
+      zod-to-json-schema: 3.24.5(zod@3.25.30)
     optionalDependencies:
-      zod: 3.25.28
+      zod: 3.25.30
 
-  '@ai-sdk/ui-utils@1.2.11(zod@3.25.28)':
+  '@ai-sdk/ui-utils@1.2.11(zod@3.25.30)':
     dependencies:
       '@ai-sdk/provider': 1.1.3
-      '@ai-sdk/provider-utils': 2.2.8(zod@3.25.28)
-      zod: 3.25.28
-      zod-to-json-schema: 3.24.5(zod@3.25.28)
+      '@ai-sdk/provider-utils': 2.2.8(zod@3.25.30)
+      zod: 3.25.30
+      zod-to-json-schema: 3.24.5(zod@3.25.30)
 
-  '@ai-sdk/vue@0.0.59(vue@3.5.14(typescript@5.8.3))(zod@3.25.28)':
+  '@ai-sdk/vue@0.0.59(vue@3.5.14(typescript@5.8.3))(zod@3.25.30)':
     dependencies:
-      '@ai-sdk/provider-utils': 1.0.22(zod@3.25.28)
-      '@ai-sdk/ui-utils': 0.0.50(zod@3.25.28)
+      '@ai-sdk/provider-utils': 1.0.22(zod@3.25.30)
+      '@ai-sdk/ui-utils': 0.0.50(zod@3.25.30)
       swrv: 1.1.0(vue@3.5.14(typescript@5.8.3))
     optionalDependencies:
       vue: 3.5.14(typescript@5.8.3)
@@ -3988,7 +4003,7 @@ snapshots:
       nanoid: 3.3.4
       node-cache: 5.1.2
       rpc-websockets: 7.5.1
-      solana-bankrun: 0.3.1(bufferutil@4.0.9)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      solana-bankrun: 0.3.1(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)
       strict-event-emitter-types: 2.0.0
       tweetnacl: 1.0.3
       tweetnacl-util: 0.15.1
@@ -4019,7 +4034,7 @@ snapshots:
       '@solana/web3.js': 1.92.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       '@switchboard-xyz/on-demand': 1.2.42(bufferutil@4.0.9)(typescript@5.6.3)(utf-8-validate@5.0.10)
       '@triton-one/yellowstone-grpc': 1.3.0
-      anchor-bankrun: 0.3.0(@coral-xyz/anchor@0.29.0(bufferutil@4.0.9)(typescript@5.6.3)(utf-8-validate@5.0.10))(@solana/web3.js@1.92.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(solana-bankrun@0.3.1(bufferutil@4.0.9)(typescript@5.6.3)(utf-8-validate@5.0.10))
+      anchor-bankrun: 0.3.0(@coral-xyz/anchor@0.29.0(bufferutil@4.0.9)(typescript@5.6.3)(utf-8-validate@5.0.10))(@solana/web3.js@1.92.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(solana-bankrun@0.3.1(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10))
       nanoid: 3.3.4
       node-cache: 5.1.2
       rpc-websockets: 7.5.1
@@ -4469,37 +4484,37 @@ snapshots:
 
   '@juanelas/base64@1.1.5': {}
 
-  '@langchain/core@0.3.57(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.28))':
+  '@langchain/core@0.3.57(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.30))':
     dependencies:
       '@cfworker/json-schema': 4.1.1
       ansi-styles: 5.2.0
       camelcase: 6.3.0
       decamelize: 1.2.0
       js-tiktoken: 1.0.20
-      langsmith: 0.3.29(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.28))
+      langsmith: 0.3.29(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.30))
       mustache: 4.2.0
       p-queue: 6.6.2
       p-retry: 4.6.2
       uuid: 10.0.0
-      zod: 3.25.28
-      zod-to-json-schema: 3.24.5(zod@3.25.28)
+      zod: 3.25.30
+      zod-to-json-schema: 3.24.5(zod@3.25.30)
     transitivePeerDependencies:
       - openai
 
-  '@langchain/openai@0.3.17(@langchain/core@0.3.57(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.28)))(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+  '@langchain/openai@0.3.17(@langchain/core@0.3.57(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.30)))(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
-      '@langchain/core': 0.3.57(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.28))
+      '@langchain/core': 0.3.57(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.30))
       js-tiktoken: 1.0.20
-      openai: 4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.28)
-      zod: 3.25.28
-      zod-to-json-schema: 3.24.5(zod@3.25.28)
+      openai: 4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.30)
+      zod: 3.25.30
+      zod-to-json-schema: 3.24.5(zod@3.25.30)
     transitivePeerDependencies:
       - encoding
       - ws
 
-  '@langchain/textsplitters@0.1.0(@langchain/core@0.3.57(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.28)))':
+  '@langchain/textsplitters@0.1.0(@langchain/core@0.3.57(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.30)))':
     dependencies:
-      '@langchain/core': 0.3.57(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.28))
+      '@langchain/core': 0.3.57(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.30))
       js-tiktoken: 1.0.20
 
   '@ledgerhq/devices@6.27.1':
@@ -5099,7 +5114,7 @@ snapshots:
 
   '@noble/secp256k1@1.7.1': {}
 
-  '@okx-dex/okx-dex-sdk@1.0.13(bufferutil@4.0.9)(utf-8-validate@5.0.10)(zod@3.25.28)':
+  '@okx-dex/okx-dex-sdk@1.0.13(bufferutil@4.0.9)(utf-8-validate@5.0.10)(zod@3.25.30)':
     dependencies:
       '@mysten/sui': 1.30.1(typescript@5.8.3)
       '@okxweb3/coin-ethereum': 1.1.1
@@ -5113,7 +5128,7 @@ snapshots:
       dotenv: 16.5.0
       typescript: 5.8.3
       valibot: 1.1.0(typescript@5.8.3)
-      web3: 4.16.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.28)
+      web3: 4.16.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.30)
     transitivePeerDependencies:
       - '@gql.tada/svelte-support'
       - '@gql.tada/vue-support'
@@ -5381,9 +5396,9 @@ snapshots:
 
   '@pythnetwork/hermes-client@1.4.0(axios@1.9.0)':
     dependencies:
-      '@zodios/core': 10.9.6(axios@1.9.0)(zod@3.25.28)
+      '@zodios/core': 10.9.6(axios@1.9.0)(zod@3.25.30)
       eventsource: 3.0.7
-      zod: 3.25.28
+      zod: 3.25.30
     transitivePeerDependencies:
       - axios
 
@@ -5568,7 +5583,7 @@ snapshots:
 
   '@shikijs/vscode-textmate@10.0.2': {}
 
-  '@solana-agent-kit/plugin-defi@2.0.5(@solana/buffer-layout@4.0.1)(@solana/web3.js@1.98.2(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10))(@types/node@20.17.50)(arweave@1.15.7)(axios@1.9.0)(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(solana-agent-kit@2.0.5(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.28))(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10))(typescript@5.8.3)(utf-8-validate@5.0.10)':
+  '@solana-agent-kit/plugin-defi@2.0.5(@solana/buffer-layout@4.0.1)(@solana/web3.js@1.98.2(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10))(@types/node@20.17.50)(arweave@1.15.7)(axios@1.9.0)(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(solana-agent-kit@2.0.5(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.30))(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10))(typescript@5.8.3)(utf-8-validate@5.0.10)':
     dependencies:
       '@cks-systems/manifest-sdk': 0.2.3(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(utf-8-validate@5.0.10)
       '@coral-xyz/anchor': 0.29.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)
@@ -5576,7 +5591,7 @@ snapshots:
       '@drift-labs/vaults-sdk': 0.3.37(@types/node@20.17.50)(arweave@1.15.7)(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(utf-8-validate@5.0.10)
       '@mercurial-finance/dynamic-amm-sdk': 1.1.23(@solana/buffer-layout@4.0.1)(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(utf-8-validate@5.0.10)
       '@meteora-ag/dlmm': 1.5.2(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(utf-8-validate@5.0.10)
-      '@okx-dex/okx-dex-sdk': 1.0.13(bufferutil@4.0.9)(utf-8-validate@5.0.10)(zod@3.25.28)
+      '@okx-dex/okx-dex-sdk': 1.0.13(bufferutil@4.0.9)(utf-8-validate@5.0.10)(zod@3.25.30)
       '@orca-so/common-sdk': 0.6.5-beta.3(@solana/spl-token@0.4.13(@solana/web3.js@1.98.2(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10))(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(utf-8-validate@5.0.10))(@solana/web3.js@1.98.2(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10))(decimal.js@10.5.0)
       '@orca-so/whirlpools-sdk': 0.13.21(@coral-xyz/anchor@0.29.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10))(@solana/spl-token@0.4.13(@solana/web3.js@1.98.2(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10))(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(utf-8-validate@5.0.10))(@solana/web3.js@1.98.2(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10))
       '@pythnetwork/hermes-client': 1.4.0(axios@1.9.0)
@@ -5593,8 +5608,8 @@ snapshots:
       flash-sdk: 2.46.4(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(utf-8-validate@5.0.10)
       redaxios: 0.5.1
       rpc-websockets: 10.0.0
-      solana-agent-kit: 2.0.5(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.28))(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)
-      zod: 3.25.28
+      solana-agent-kit: 2.0.5(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.30))(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10)
+      zod: 3.25.30
     transitivePeerDependencies:
       - '@gql.tada/svelte-support'
       - '@gql.tada/vue-support'
@@ -6018,11 +6033,11 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@solana/spl-token@0.3.7(@solana/web3.js@1.98.2(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10))(bufferutil@4.0.9)(typescript@4.9.5)(utf-8-validate@5.0.10)':
+  '@solana/spl-token@0.3.7(@solana/web3.js@1.98.2(bufferutil@4.0.9)(typescript@5.6.3)(utf-8-validate@5.0.10))(bufferutil@4.0.9)(typescript@4.9.5)(utf-8-validate@5.0.10)':
     dependencies:
       '@solana/buffer-layout': 4.0.1
       '@solana/buffer-layout-utils': 0.2.0(bufferutil@4.0.9)(typescript@4.9.5)(utf-8-validate@5.0.10)
-      '@solana/web3.js': 1.98.2(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)
+      '@solana/web3.js': 1.98.2(bufferutil@4.0.9)(typescript@5.6.3)(utf-8-validate@5.0.10)
       buffer: 6.0.3
     transitivePeerDependencies:
       - bufferutil
@@ -6220,7 +6235,7 @@ snapshots:
   '@solworks/soltoolkit-sdk@0.0.23(bufferutil@4.0.9)(utf-8-validate@5.0.10)':
     dependencies:
       '@solana/buffer-layout': 4.0.1
-      '@solana/spl-token': 0.3.7(@solana/web3.js@1.98.2(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10))(bufferutil@4.0.9)(typescript@4.9.5)(utf-8-validate@5.0.10)
+      '@solana/spl-token': 0.3.7(@solana/web3.js@1.98.2(bufferutil@4.0.9)(typescript@5.6.3)(utf-8-validate@5.0.10))(bufferutil@4.0.9)(typescript@4.9.5)(utf-8-validate@5.0.10)
       '@solana/web3.js': 1.98.2(bufferutil@4.0.9)(typescript@4.9.5)(utf-8-validate@5.0.10)
       '@types/bn.js': 5.1.6
       '@types/node': 18.19.103
@@ -6357,6 +6372,8 @@ snapshots:
   '@types/connect@3.4.38':
     dependencies:
       '@types/node': 20.17.50
+
+  '@types/crypto-js@4.2.2': {}
 
   '@types/decimal.js@7.4.3':
     dependencies:
@@ -6528,16 +6545,16 @@ snapshots:
     dependencies:
       '@wallet-standard/base': 1.1.0
 
-  '@zodios/core@10.9.6(axios@1.9.0)(zod@3.25.28)':
+  '@zodios/core@10.9.6(axios@1.9.0)(zod@3.25.30)':
     dependencies:
       axios: 1.9.0(debug@4.4.1)
-      zod: 3.25.28
+      zod: 3.25.30
 
-  abitype@0.7.1(typescript@5.8.3)(zod@3.25.28):
+  abitype@0.7.1(typescript@5.8.3)(zod@3.25.30):
     dependencies:
       typescript: 5.8.3
     optionalDependencies:
-      zod: 3.25.28
+      zod: 3.25.30
 
   abort-controller@3.0.0:
     dependencies:
@@ -6560,40 +6577,40 @@ snapshots:
     dependencies:
       humanize-ms: 1.2.1
 
-  ai@3.4.33(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.28))(react@19.1.0)(sswr@2.2.0(svelte@5.33.2))(svelte@5.33.2)(vue@3.5.14(typescript@5.8.3))(zod@3.25.28):
+  ai@3.4.33(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.30))(react@19.1.0)(sswr@2.2.0(svelte@5.33.2))(svelte@5.33.2)(vue@3.5.14(typescript@5.8.3))(zod@3.25.30):
     dependencies:
       '@ai-sdk/provider': 0.0.26
-      '@ai-sdk/provider-utils': 1.0.22(zod@3.25.28)
-      '@ai-sdk/react': 0.0.70(react@19.1.0)(zod@3.25.28)
-      '@ai-sdk/solid': 0.0.54(zod@3.25.28)
-      '@ai-sdk/svelte': 0.0.57(svelte@5.33.2)(zod@3.25.28)
-      '@ai-sdk/ui-utils': 0.0.50(zod@3.25.28)
-      '@ai-sdk/vue': 0.0.59(vue@3.5.14(typescript@5.8.3))(zod@3.25.28)
+      '@ai-sdk/provider-utils': 1.0.22(zod@3.25.30)
+      '@ai-sdk/react': 0.0.70(react@19.1.0)(zod@3.25.30)
+      '@ai-sdk/solid': 0.0.54(zod@3.25.30)
+      '@ai-sdk/svelte': 0.0.57(svelte@5.33.2)(zod@3.25.30)
+      '@ai-sdk/ui-utils': 0.0.50(zod@3.25.30)
+      '@ai-sdk/vue': 0.0.59(vue@3.5.14(typescript@5.8.3))(zod@3.25.30)
       '@opentelemetry/api': 1.9.0
       eventsource-parser: 1.1.2
       json-schema: 0.4.0
       jsondiffpatch: 0.6.0
       secure-json-parse: 2.7.0
-      zod-to-json-schema: 3.24.5(zod@3.25.28)
+      zod-to-json-schema: 3.24.5(zod@3.25.30)
     optionalDependencies:
-      openai: 4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.28)
+      openai: 4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.30)
       react: 19.1.0
       sswr: 2.2.0(svelte@5.33.2)
       svelte: 5.33.2
-      zod: 3.25.28
+      zod: 3.25.30
     transitivePeerDependencies:
       - solid-js
       - vue
 
-  ai@4.3.16(react@19.1.0)(zod@3.25.28):
+  ai@4.3.16(react@19.1.0)(zod@3.25.30):
     dependencies:
       '@ai-sdk/provider': 1.1.3
-      '@ai-sdk/provider-utils': 2.2.8(zod@3.25.28)
-      '@ai-sdk/react': 1.2.12(react@19.1.0)(zod@3.25.28)
-      '@ai-sdk/ui-utils': 1.2.11(zod@3.25.28)
+      '@ai-sdk/provider-utils': 2.2.8(zod@3.25.30)
+      '@ai-sdk/react': 1.2.12(react@19.1.0)(zod@3.25.30)
+      '@ai-sdk/ui-utils': 1.2.11(zod@3.25.30)
       '@opentelemetry/api': 1.9.0
       jsondiffpatch: 0.6.0
-      zod: 3.25.28
+      zod: 3.25.30
     optionalDependencies:
       react: 19.1.0
 
@@ -6614,17 +6631,17 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  anchor-bankrun@0.3.0(@coral-xyz/anchor@0.29.0(bufferutil@4.0.9)(typescript@5.6.3)(utf-8-validate@5.0.10))(@solana/web3.js@1.92.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(solana-bankrun@0.3.1(bufferutil@4.0.9)(typescript@5.6.3)(utf-8-validate@5.0.10)):
+  anchor-bankrun@0.3.0(@coral-xyz/anchor@0.29.0(bufferutil@4.0.9)(typescript@5.6.3)(utf-8-validate@5.0.10))(@solana/web3.js@1.92.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(solana-bankrun@0.3.1(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)):
     dependencies:
       '@coral-xyz/anchor': 0.29.0(bufferutil@4.0.9)(typescript@5.6.3)(utf-8-validate@5.0.10)
       '@solana/web3.js': 1.92.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
-      solana-bankrun: 0.3.1(bufferutil@4.0.9)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      solana-bankrun: 0.3.1(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)
 
   anchor-bankrun@0.3.0(@coral-xyz/anchor@0.29.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10))(@solana/web3.js@1.92.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(solana-bankrun@0.3.1(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)):
     dependencies:
       '@coral-xyz/anchor': 0.29.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)
       '@solana/web3.js': 1.92.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
-      solana-bankrun: 0.3.1(bufferutil@4.0.9)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      solana-bankrun: 0.3.1(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)
 
   ansi-escapes@4.3.2:
     dependencies:
@@ -6748,7 +6765,7 @@ snapshots:
   axios@0.27.2(debug@4.4.1):
     dependencies:
       follow-redirects: 1.15.9(debug@4.4.1)
-      form-data: 4.0.0
+      form-data: 4.0.2
     transitivePeerDependencies:
       - debug
 
@@ -7857,21 +7874,21 @@ snapshots:
       node-gyp-build: 4.8.4
       readable-stream: 3.6.2
 
-  langchain@0.3.27(@langchain/core@0.3.57(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.28)))(axios@1.9.0)(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.28))(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
+  langchain@0.3.27(@langchain/core@0.3.57(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.30)))(axios@1.9.0)(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.30))(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
     dependencies:
-      '@langchain/core': 0.3.57(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.28))
-      '@langchain/openai': 0.3.17(@langchain/core@0.3.57(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.28)))(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
-      '@langchain/textsplitters': 0.1.0(@langchain/core@0.3.57(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.28)))
+      '@langchain/core': 0.3.57(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.30))
+      '@langchain/openai': 0.3.17(@langchain/core@0.3.57(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.30)))(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@langchain/textsplitters': 0.1.0(@langchain/core@0.3.57(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.30)))
       js-tiktoken: 1.0.20
       js-yaml: 4.1.0
       jsonpointer: 5.0.1
-      langsmith: 0.3.29(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.28))
+      langsmith: 0.3.29(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.30))
       openapi-types: 12.1.3
       p-retry: 4.6.2
       uuid: 10.0.0
       yaml: 2.8.0
-      zod: 3.25.28
-      zod-to-json-schema: 3.24.5(zod@3.25.28)
+      zod: 3.25.30
+      zod-to-json-schema: 3.24.5(zod@3.25.30)
     optionalDependencies:
       axios: 1.9.0(debug@4.4.1)
     transitivePeerDependencies:
@@ -7879,7 +7896,7 @@ snapshots:
       - openai
       - ws
 
-  langsmith@0.3.29(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.28)):
+  langsmith@0.3.29(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.30)):
     dependencies:
       '@types/uuid': 10.0.0
       chalk: 4.1.2
@@ -7889,7 +7906,7 @@ snapshots:
       semver: 7.7.2
       uuid: 10.0.0
     optionalDependencies:
-      openai: 4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.28)
+      openai: 4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.30)
 
   linkify-it@5.0.0:
     dependencies:
@@ -8166,7 +8183,7 @@ snapshots:
       regex: 5.1.1
       regex-recursion: 5.1.1
 
-  openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.28):
+  openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.30):
     dependencies:
       '@types/node': 18.19.103
       '@types/node-fetch': 2.6.12
@@ -8177,7 +8194,7 @@ snapshots:
       node-fetch: 2.7.0
     optionalDependencies:
       ws: 7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10)
-      zod: 3.25.28
+      zod: 3.25.30
     transitivePeerDependencies:
       - encoding
 
@@ -8574,16 +8591,16 @@ snapshots:
       dot-case: 3.0.4
       tslib: 2.8.1
 
-  solana-agent-kit@2.0.5(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.28))(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10):
+  solana-agent-kit@2.0.5(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.30))(react@19.1.0)(typescript@5.8.3)(utf-8-validate@5.0.10):
     dependencies:
-      '@langchain/core': 0.3.57(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.28))
+      '@langchain/core': 0.3.57(openai@4.103.0(ws@7.5.10(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.25.30))
       '@solana/spl-token': 0.4.13(@solana/web3.js@1.98.2(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10))(bufferutil@4.0.9)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(utf-8-validate@5.0.10)
       '@solana/web3.js': 1.98.2(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)
-      ai: 4.3.16(react@19.1.0)(zod@3.25.28)
+      ai: 4.3.16(react@19.1.0)(zod@3.25.30)
       bs58: 6.0.0
       rpc-websockets: 10.0.0
       tweetnacl: 1.0.3
-      zod: 3.25.28
+      zod: 3.25.30
     transitivePeerDependencies:
       - bufferutil
       - encoding
@@ -8611,6 +8628,22 @@ snapshots:
   solana-bankrun@0.3.1(bufferutil@4.0.9)(typescript@5.6.3)(utf-8-validate@5.0.10):
     dependencies:
       '@solana/web3.js': 1.98.2(bufferutil@4.0.9)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      bs58: 4.0.1
+    optionalDependencies:
+      solana-bankrun-darwin-arm64: 0.3.1
+      solana-bankrun-darwin-universal: 0.3.1
+      solana-bankrun-darwin-x64: 0.3.1
+      solana-bankrun-linux-x64-gnu: 0.3.1
+      solana-bankrun-linux-x64-musl: 0.3.1
+    transitivePeerDependencies:
+      - bufferutil
+      - encoding
+      - typescript
+      - utf-8-validate
+
+  solana-bankrun@0.3.1(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10):
+    dependencies:
+      '@solana/web3.js': 1.98.2(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)
       bs58: 4.0.1
     optionalDependencies:
       solana-bankrun-darwin-arm64: 0.3.1
@@ -9008,9 +9041,9 @@ snapshots:
     dependencies:
       web3-types: 1.10.0
 
-  web3-eth-abi@4.4.1(typescript@5.8.3)(zod@3.25.28):
+  web3-eth-abi@4.4.1(typescript@5.8.3)(zod@3.25.30):
     dependencies:
-      abitype: 0.7.1(typescript@5.8.3)(zod@3.25.28)
+      abitype: 0.7.1(typescript@5.8.3)(zod@3.25.30)
       web3-errors: 1.3.1
       web3-types: 1.10.0
       web3-utils: 4.3.3
@@ -9029,13 +9062,13 @@ snapshots:
       web3-utils: 4.3.3
       web3-validator: 2.0.6
 
-  web3-eth-contract@4.7.2(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.28):
+  web3-eth-contract@4.7.2(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.30):
     dependencies:
       '@ethereumjs/rlp': 5.0.2
       web3-core: 4.7.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       web3-errors: 1.3.1
-      web3-eth: 4.11.1(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.28)
-      web3-eth-abi: 4.4.1(typescript@5.8.3)(zod@3.25.28)
+      web3-eth: 4.11.1(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.30)
+      web3-eth-abi: 4.4.1(typescript@5.8.3)(zod@3.25.30)
       web3-types: 1.10.0
       web3-utils: 4.3.3
       web3-validator: 2.0.6
@@ -9046,13 +9079,13 @@ snapshots:
       - utf-8-validate
       - zod
 
-  web3-eth-ens@4.4.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.28):
+  web3-eth-ens@4.4.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.30):
     dependencies:
       '@adraffy/ens-normalize': 1.11.0
       web3-core: 4.7.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       web3-errors: 1.3.1
-      web3-eth: 4.11.1(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.28)
-      web3-eth-contract: 4.7.2(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.28)
+      web3-eth: 4.11.1(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.30)
+      web3-eth-contract: 4.7.2(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.30)
       web3-net: 4.1.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       web3-types: 1.10.0
       web3-utils: 4.3.3
@@ -9071,10 +9104,10 @@ snapshots:
       web3-utils: 4.3.3
       web3-validator: 2.0.6
 
-  web3-eth-personal@4.1.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.28):
+  web3-eth-personal@4.1.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.30):
     dependencies:
       web3-core: 4.7.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)
-      web3-eth: 4.11.1(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.28)
+      web3-eth: 4.11.1(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.30)
       web3-rpc-methods: 1.3.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       web3-types: 1.10.0
       web3-utils: 4.3.3
@@ -9086,12 +9119,12 @@ snapshots:
       - utf-8-validate
       - zod
 
-  web3-eth@4.11.1(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.28):
+  web3-eth@4.11.1(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.30):
     dependencies:
       setimmediate: 1.0.5
       web3-core: 4.7.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       web3-errors: 1.3.1
-      web3-eth-abi: 4.4.1(typescript@5.8.3)(zod@3.25.28)
+      web3-eth-abi: 4.4.1(typescript@5.8.3)(zod@3.25.30)
       web3-eth-accounts: 4.3.1
       web3-net: 4.1.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       web3-providers-ws: 4.0.8(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -9195,19 +9228,19 @@ snapshots:
       util: 0.12.5
       web3-errors: 1.3.1
       web3-types: 1.10.0
-      zod: 3.25.28
+      zod: 3.25.30
 
-  web3@4.16.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.28):
+  web3@4.16.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.30):
     dependencies:
       web3-core: 4.7.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       web3-errors: 1.3.1
-      web3-eth: 4.11.1(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.28)
-      web3-eth-abi: 4.4.1(typescript@5.8.3)(zod@3.25.28)
+      web3-eth: 4.11.1(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.30)
+      web3-eth-abi: 4.4.1(typescript@5.8.3)(zod@3.25.30)
       web3-eth-accounts: 4.3.1
-      web3-eth-contract: 4.7.2(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.28)
-      web3-eth-ens: 4.4.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.28)
+      web3-eth-contract: 4.7.2(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.30)
+      web3-eth-ens: 4.4.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.30)
       web3-eth-iban: 4.0.7
-      web3-eth-personal: 4.1.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.28)
+      web3-eth-personal: 4.1.0(bufferutil@4.0.9)(typescript@5.8.3)(utf-8-validate@5.0.10)(zod@3.25.30)
       web3-net: 4.1.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       web3-providers-http: 4.2.0
       web3-providers-ws: 4.0.8(bufferutil@4.0.9)(utf-8-validate@5.0.10)
@@ -9303,11 +9336,11 @@ snapshots:
 
   zimmerframe@1.1.2: {}
 
-  zod-to-json-schema@3.24.5(zod@3.25.28):
+  zod-to-json-schema@3.24.5(zod@3.25.30):
     dependencies:
-      zod: 3.25.28
+      zod: 3.25.30
 
-  zod@3.25.28: {}
+  zod@3.25.30: {}
 
   zstddec@0.0.2: {}
 
