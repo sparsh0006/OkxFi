@@ -25,6 +25,7 @@
     "ai": "^3.2.12",
     "axios": "^1.9.0",
     "bs58": "^6.0.0",
+    "cors": "^2.8.5",
     "crypto-js": "^4.2.0",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
@@ -33,6 +34,7 @@
     "zod": "^3.25.30"
   },
   "devDependencies": {
+    "@types/cors": "^2.8.18",
     "@types/crypto-js": "^4.2.2",
     "@types/express": "^4.17.21",
     "@types/node": "^20.14.2",
