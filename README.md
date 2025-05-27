@@ -3,6 +3,10 @@
 OKXFi provides an intelligent, conversational interface to interact with the OKX financial ecosystem and Solana DeFi. Leveraging advanced AI agents, it simplifies complex financial operations and data retrieval into natural language queries.
 
 
+*   **📊 [Pitch Deck](https://gamma.app/docs/OKxFi-9ohgt2wi0ku95jx?mode=doc)**
+*   **🎬 [Demo Video](https://drive.google.com/drive/u/2/folders/1MYzNp-Hx8hCfvyBQ1tmfRazE4Vij5ePZ)**
+
+
 **✨ Core Features:**
 
 *   **🧠 Dual NLP Agents:**
